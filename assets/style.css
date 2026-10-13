@@ -708,11 +708,27 @@ body.is-scrollable{ overflow:auto; }
 .two-col{ display:grid; gap:clamp(20px,3.4vw,46px); grid-template-columns:1fr 1fr; align-items:center; }
 @media (max-width:900px){ .two-col{ grid-template-columns:1fr; } }
 
-/* 모바일 */
-@media (max-width:640px){
-  .slide{ padding:70px 18px 66px; }
+/* 모바일 — 교육생이 휴대폰으로 보는 화면 */
+@media (max-width:760px){
+  .slide{ padding:72px 18px 74px; }
   .chrome-top .ct-part{ display:none; }
   .slide-ghost{ display:none; }
+
+  /* 상단 바가 여러 줄로 늘어나 본문을 덮지 않도록 한 줄로 고정한다 */
+  .chrome-top{ padding:10px 14px; flex-wrap:nowrap; }
+  .ct-brand{ min-width:0; flex:1; }
+  .ct-brand > div:last-child{ min-width:0; }
+  .ct-brand b{
+    font-size:12px; display:block;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  }
+  .ct-brand span{ display:none; }          /* 일시·장소 줄은 숨김 */
+  #timer{ display:none; }                   /* 타이머는 강사용이므로 숨김 */
+  .ct-btn{ padding:6px 9px; font-size:10.5px; }
+
+  /* 하단 바도 좁은 화면에 맞춤 */
+  .chrome-bot{ padding:10px 14px 12px; gap:10px; }
+  .nav-btn{ width:34px; height:34px; }
 }
 
 /* 인쇄(유인물) */
