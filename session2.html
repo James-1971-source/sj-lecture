@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2회차 · 자기소개서 &amp; 이력서 — 삼덕SOS자립생활관 청년 역량강화</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="bg-wash"></div>
+<div class="bg-grid"></div>
+<canvas id="neural"></canvas>
+<div class="bg-grain"></div>
+
+<header class="chrome-top">
+  <a class="ct-brand" href="index.html" title="처음 화면으로">
+    <div class="brand-mark">S&amp;J</div>
+    <div>
+      <b>2회차 · 자기소개서 &amp; 이력서</b>
+      <span>2026.10.21 (수) 14:00–16:00 · 삼덕SOS자립생활관</span>
+    </div>
+  </a>
+  <div class="ct-spacer"></div>
+  <div class="ct-part" id="part"></div>
+  <button class="ct-btn" id="timer" title="클릭 = 시작/정지, 더블클릭 = 초기화">00:00</button>
+  <button class="ct-btn" id="btn-toc">목차 M</button>
+  <button class="ct-btn" id="btn-full">전체화면 F</button>
+</header>
+
+<div class="slide-ghost" id="ghost">01</div>
+
+<main class="deck">
+
+<!-- 01 -->
+<section class="slide slide--title is-active" data-title="타이틀 — 자기소개서 & 이력서" data-part="OPENING">
+  <div class="slide-inner">
+    <span class="kicker blue reveal">SESSION 02 · 2026.10.21</span>
+    <h1 class="reveal">AI가 읽는<br>자기소개서,<br><span style="background:linear-gradient(100deg,var(--blue),var(--mint));-webkit-background-clip:text;background-clip:text;color:transparent;">사람이 뽑는 사람</span></h1>
+    <div class="title-rule reveal"></div>
+    <div class="title-meta reveal">
+      <div><span>TOPIC</span>이력서 · 자기소개서 실전</div>
+      <div><span>RUNTIME</span>120분 (사례 비교 · 첨삭 시연 중심)</div>
+      <div><span>준비물</span>없음 · 강의 사이트 공유</div>
+      <div><span>UPDATED</span>2026.10 최신 채용 동향 반영</div>
+    </div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section class="slide" data-title="지난 시간 복습 & 오늘의 목표" data-part="OPENING">
+  <div class="slide-inner">
+    <span class="kicker reveal">RECAP &amp; TODAY</span>
+    <h2 class="reveal">지난 주 이야기, 한 번 짚고 갑니다</h2>
+    <div class="two-col">
+      <div class="reveal">
+        <h3 style="margin-bottom:16px">지난 시간 핵심 3가지</h3>
+        <ul class="bul">
+          <li><strong>AI 리터러시는 4단계</strong> — 사용 / <span class="mk">지시</span> / <span class="mk">검증</span> / 설계. 기업이 보는 건 2~3단계입니다.</li>
+          <li><strong>프롬프트 5칸 공식</strong> — 역할 · 맥락 · 요청 · 형식 · 제약. 마지막에 “모르면 물어봐”를 꼭 붙일 것.</li>
+          <li><strong>AI는 자신 있게 틀린다</strong> — 숫자는 원문에서, 이름은 검색으로, 내 경험은 내가.</li>
+        </ul>
+        <div class="callout coral mt-m">
+          <p>구직자 <strong class="ck">91%</strong>가 AI를 씁니다. 이제 AI를 쓰는 건 자랑이 아니라 기본입니다.
+          오늘은 <span class="mk">“그 다음”</span>을 배웁니다.</p>
+        </div>
+      </div>
+      <div class="reveal">
+        <h3 style="margin-bottom:16px">오늘 두 시간의 구성</h3>
+        <div class="steps" style="grid-template-columns:1fr">
+          <div class="step"><div class="sn">1</div><h4>2026년, 서류전형에 무슨 일이</h4><p>25분 · 40년 만의 변화와 그 이유</p></div>
+          <div class="step"><div class="sn">2</div><h4>이력서 — 경력이 없어도 쓸 게 있다</h4><p>30분 · 5블록 구조와 숫자 변환 공식</p></div>
+          <div class="step"><div class="sn">3</div><h4>자기소개서 — 문항별 실전</h4><p>35분 · 나쁜 예 / 좋은 예 전문 비교</p></div>
+          <div class="step"><div class="sn">4</div><h4>AI 활용 워크플로 + 첨삭 시연</h4><p>30분 · 프롬프트 5종 세트와 교정 규칙</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 PART 01 -->
+<section class="slide slide--part" data-title="PART 01 — 2026, 자소서가 바뀌었다" data-part="PART 01">
+  <div class="slide-inner">
+    <div class="part-num reveal">01</div>
+    <h1 class="reveal">40년 만에,<br>자기소개서가 바뀌고 있습니다</h1>
+    <p class="part-desc lead reveal">1980년대 공채 문화가 자리 잡은 이후 40년 넘게 유지돼 온 자소서 문항들이
+    <span class="ck">올해 빠르게 사라지고 있습니다.</span> 이유는 하나입니다.</p>
+  </div>
+</section>
+
+<!-- 04 -->
+<section class="slide" data-title="지금 서류전형에서 벌어지는 일" data-part="PART 01">
+  <div class="slide-inner">
+    <span class="kicker coral reveal">WHAT'S HAPPENING</span>
+    <h2 class="reveal">지금 서류전형에서 벌어지는 일</h2>
+    <div class="grid cols-3 reveal">
+      <div class="card brk coral">
+        <span class="c-tag">일본 · 소프트뱅크</span>
+        <h3>자기소개서 제출 폐지</h3>
+        <p>올해 1월부터 신입 채용에서 자기소개서를 아예 받지 않습니다.
+        대신 지원자가 낸 <strong>1분짜리 영상</strong>을 AI로 검토합니다.</p>
+      </div>
+      <div class="card brk blue">
+        <span class="c-tag">한국 · SK하이닉스</span>
+        <h3>자소서 폐지 + 과제형 확대</h3>
+        <p>올해 하반기 공채에서 <strong class="ck">자기소개서가 아예 사라졌습니다.</strong>
+        그 자리를 <strong>‘AI 활용역량·직무전문성 기술 서식’</strong>이 대신하고,
+        20–30분이던 면접은 <strong>반나절 심층면접</strong>으로 확대됐습니다.</p>
+      </div>
+      <div class="card brk amber">
+        <span class="c-tag">공통 흐름</span>
+        <h3>평가 축이 뒤로 이동</h3>
+        <p>서류에서 걸러내던 방식에서 <strong>심층 면접·과제 평가</strong>로 중심이 옮겨가고 있습니다.
+        <span class="small">→ 3회차 면접 강의가 더 중요해진 이유</span></p>
+      </div>
+    </div>
+    <div class="callout coral mt-l reveal">
+      <p class="q">왜 이런 일이 생겼을까요?</p>
+      <p class="mt-s">구직자 <strong class="ck">91%</strong>가 AI를 쓰고, 지난해 제출된 자소서의
+      <strong class="ck">64.4%</strong>가 생성형 AI로 작성된 것으로 추정됩니다.
+      그러니 자소서만 봐서는 <strong>누가 누군지 구분이 안 됩니다.</strong>
+      기업 입장에서 자소서는 변별력을 잃은 서류가 된 것입니다.</p>
+    </div>
+    <div class="srcline reveal">// 출처: 한국경제 · 네이트뉴스 · 전자신문 · 잡코리아 · 링커리어 (2025.12–2026.10)</div>
+  </div>
+</section>
+
+<!-- 05 -->
+<section class="slide" data-title="사라진 문항 / 남은 문항" data-part="PART 01">
+  <div class="slide-inner">
+    <span class="kicker reveal">OUT &amp; IN</span>
+    <h2 class="reveal">무엇이 사라지고, 무엇이 남았나</h2>
+    <table class="tbl reveal">
+      <thead><tr><th style="width:38%">사라지는 문항 (스토리텔링형)</th><th style="width:38%">그 자리를 채우는 문항 (검증 가능형)</th><th>차이</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="old">“살면서 가장 힘들었던 순간과 극복 경험을 서술하시오”</td>
+          <td class="new">“최근 1년 내 완료한 프로젝트와 본인의 역할, 결과를 숫자로 쓰시오”</td>
+          <td>느낌 → <strong>증거</strong></td>
+        </tr>
+        <tr>
+          <td class="old">“본인의 성장 과정을 기술하시오”</td>
+          <td class="new">“보유 자격증·수상 이력과 취득 시기를 기재하시오”</td>
+          <td>서사 → <strong>사실</strong></td>
+        </tr>
+        <tr>
+          <td class="old">“입사 후 포부를 자유롭게 서술하시오”</td>
+          <td class="new">“입사 후 3개월간 수행할 업무 계획을 구체적으로 쓰시오”</td>
+          <td>다짐 → <strong>계획</strong></td>
+        </tr>
+        <tr>
+          <td class="old">“본인의 가치관에 대해 논하시오”</td>
+          <td class="new">“AI 도구를 업무에 활용한 경험과 그 결과를 쓰시오”</td>
+          <td>추상 → <strong>실행</strong></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="grid cols-2 mt-l">
+      <div class="callout reveal">
+        <p><strong>한 문장으로 정리하면</strong><br>
+        기업은 이제 <span class="mk">“당신이 어떤 사람인지”</span>가 아니라
+        <span class="mk">“당신이 무엇을 해냈는지”</span>를 묻습니다.</p>
+      </div>
+      <div class="callout amber reveal">
+        <p><strong>이게 여러분에게 유리한 이유</strong><br>
+        화려한 수식어를 쓰는 능력이 필요 없어졌습니다.
+        <span class="ak">실제로 한 일을 정확히 적기만 하면 됩니다.</span>
+        글솜씨 싸움이 아니라 <strong>기록 싸움</strong>이 됐습니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 06 -->
+<section class="slide" data-title="AI를 써도 됩니다 — 다만 여기서 갈립니다" data-part="PART 01">
+  <div class="slide-inner">
+    <span class="kicker coral reveal">THE REAL LINE</span>
+    <h2 class="reveal">AI를 써도 됩니다. <span class="ck">다만 여기서 갈립니다</span></h2>
+    <div class="callout mt-s reveal" style="margin-bottom:22px">
+      <p><strong>먼저 오해부터 풀고 가겠습니다.</strong> 채용담당자의 <strong class="ck">77%</strong>가
+      “많은 지원서가 AI로 쓴 것 같다”고 답했습니다. 그런데 같은 조사에서
+      <strong class="mk">76%는 “지원서 품질이 전반적으로 좋아졌다”</strong>고 답했습니다.<br>
+      <span class="mk">AI를 썼다는 사실 자체는 감점이 아닙니다.</span> 들킬까 봐 걱정하실 필요 없습니다.
+      <strong>진짜 위험은 따로 있습니다.</strong></p>
+    </div>
+    <div class="compare mt-m reveal">
+      <div class="cmp bad">
+        <div class="cmp-h"><span class="ic">!</span> 진짜 위험 두 가지</div>
+        <div class="cmp-body">
+          <strong>① 전부 비슷해집니다.</strong><br>
+          AI가 품질을 올려준 만큼, <span class="ck">모두의 글이 서로 닮았습니다.</span>
+          매끄러운 문장은 이제 변별력이 없습니다. 담당자는 <strong>구체적인 수치와 그 사람만의 이야기</strong>를 찾습니다.<br><br>
+          <strong>② 면접에서 무너집니다.</strong><br>
+          AI가 써준 멋진 문장에는 내가 겪지 않은 일이 섞여 있습니다.
+          면접관이 “여기 쓰신 그 프로젝트, 어떤 역할이셨죠?”라고 묻는 순간
+          <span class="ck">3초의 침묵</span>이 생깁니다. 그 3초가 탈락 사유입니다.
+        </div>
+      </div>
+      <div class="cmp good">
+        <div class="cmp-h"><span class="ic">✓</span> 안전한 방법</div>
+        <div class="cmp-body">
+          <strong>내 사실 → AI로 정리 → 내 말로 교정.</strong><br><br>
+          순서를 절대 바꾸지 마세요.<br>
+          AI에게 <em>먼저</em> 쓰게 하고 나중에 내 얘기를 끼워 넣으면 반드시 어색해집니다.<br><br>
+          <span class="mk">자소서에 적힌 모든 문장에 대해, 면접에서 3분씩 말할 수 있어야 합니다.</span>
+          그게 유일한 기준입니다.
+        </div>
+      </div>
+    </div>
+    <div class="callout mt-l reveal">
+      <p class="q">오늘의 대원칙<br><span class="mk">AI로 ‘쓰지’ 말고, AI로 ‘설계’하십시오.</span></p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 PART 02 -->
+<section class="slide slide--part" data-title="PART 02 — 이력서" data-part="PART 02">
+  <div class="slide-inner">
+    <div class="part-num reveal">02</div>
+    <h1 class="reveal">이력서 —<br>경력이 없어도 쓸 게 있습니다</h1>
+    <p class="part-desc lead reveal">“쓸 게 없어요”라고 말하는 분이 많습니다.<br>
+    대부분은 <span class="mk">쓸 게 없는 게 아니라, 쓰는 법을 배운 적이 없는 것</span>입니다.</p>
+  </div>
+</section>
+
+<!-- 08 -->
+<section class="slide" data-title="이력서 5블록 구조" data-part="PART 02">
+  <div class="slide-inner">
+    <span class="kicker reveal">STRUCTURE</span>
+    <h2 class="reveal">경력 없는 사람의 이력서, <span class="mk">5블록</span></h2>
+    <div class="steps reveal">
+      <div class="step"><div class="sn">1</div><h4>인적사항</h4><p>이름 · 연락처 · 이메일 · 거주 지역(시/구까지만)<br><span class="small">사진은 요구할 때만</span></p></div>
+      <div class="step"><div class="sn">2</div><h4>한 줄 소개</h4><p>내가 어떤 사람이고 어떤 일을 하려는지 <strong>한 문장</strong><br><span class="small">가장 중요한 칸</span></p></div>
+      <div class="step"><div class="sn">3</div><h4>경험</h4><p>알바 · 봉사 · 실습 · 동아리 · 교육과정 전부<br><span class="small">최신순</span></p></div>
+      <div class="step"><div class="sn">4</div><h4>자격 &amp; 기술</h4><p>자격증 · 수료증 · 다룰 수 있는 프로그램 · AI 도구<br><span class="small">취득일 명시</span></p></div>
+      <div class="step"><div class="sn">5</div><h4>교육</h4><p>학력 + 직업훈련 · 온라인 수료 과정<br><span class="small">학력은 맨 아래로</span></p></div>
+    </div>
+    <div class="grid cols-2 mt-l">
+      <div class="callout reveal">
+        <p><strong>순서가 전략입니다.</strong> 학력이 강점이 아니라면 <span class="mk">맨 아래로 내리세요.</span>
+        채용 담당자는 위에서부터 읽습니다. 가장 강한 카드를 두 번째 칸(한 줄 소개)에 놓으세요.</p>
+      </div>
+      <div class="callout amber reveal">
+        <p><strong>분량</strong> — 신입은 <span class="ak">A4 한 장</span>입니다. 두 장 넘어가면 안 읽습니다.
+        담당자 한 명이 하루에 수백 장을 봅니다. 한 장에 다 담는 것도 실력입니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 09 -->
+<section class="slide" data-title="“쓸 게 없다”는 착각 — 함께 확인" data-part="PART 02 · 함께 보기">
+  <div class="slide-inner">
+    <span class="kicker amber reveal">TOGETHER · 8분</span>
+    <h2 class="reveal">“쓸 게 없다”는 착각</h2>
+    <p class="lead reveal">제가 하나씩 읽어드리겠습니다. <strong>해당되시면 손만 들어주세요.</strong>
+    하나라도 손을 드셨다면, 이력서에 쓸 것이 있는 겁니다.</p>
+    <div class="mt-m reveal">
+      <div class="checklist">
+        <button class="chk"><span class="box">✓</span><span class="txt">아르바이트를 <strong>3개월 이상</strong> 해본 적이 있다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">돈을 세거나 정산하거나 <strong>재고를 확인</strong>해본 적이 있다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">손님이나 이용자를 <strong>직접 응대</strong>해본 적이 있다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">봉사활동·동아리·종교활동 등에서 <strong>맡은 역할</strong>이 있었다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">자격증이 하나라도 있다 <span class="small">(운전면허 포함)</span></span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">직업훈련·온라인 강의를 <strong>끝까지 수료</strong>한 적이 있다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">엑셀·한글·포토샵 등 <strong>프로그램</strong>을 써본 적이 있다 <span class="small">(학교에서 배운 것 포함)</span></span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">AI를 <strong>한 번이라도 써본</strong> 적이 있다 <span class="small">(지난주에 보신 것 포함)</span></span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">혼자 <strong>살림을 꾸려본</strong> 적이 있다 <span class="small">— 예산 관리 경험입니다</span></span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">힘든 시기를 <strong>버텨내고 오늘 여기 앉아 있다</strong></span></button>
+      </div>
+      <div class="chk-score">// 완료 0 / 10</div>
+    </div>
+    <div class="callout mt-m reveal">
+      <p><strong>마지막 항목을 보세요.</strong> 그건 농담이 아닙니다.
+      기업이 가장 뽑고 싶어 하는 사람은 <span class="mk">“오래 다닐 사람”</span>입니다.
+      버텨본 경험은 자산이지 약점이 아닙니다. 다만 <strong>이력서에 쓰는 방법이 따로 있습니다.</strong> 잠시 뒤에 다룹니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 10 -->
+<section class="slide" data-title="경험을 숫자로 바꾸는 공식" data-part="PART 02">
+  <div class="slide-inner">
+    <span class="kicker reveal">THE CONVERSION</span>
+    <h2 class="reveal">경험을 <span class="mk">숫자</span>로 바꾸는 공식</h2>
+    <div class="two-col">
+      <div class="reveal">
+        <div class="card brk mint">
+          <span class="c-tag">공식</span>
+          <h3 style="font-family:var(--font-display);font-size:22px;line-height:1.6">
+          [기간] 동안 [무엇을] 하여<br>[숫자]의 결과를 만들었다</h3>
+          <p style="margin-top:14px">숫자로 쓸 수 있는 것들:<br>
+          <strong>기간</strong>(개월·년) · <strong>횟수</strong>(일 몇 건) · <strong>인원</strong>(몇 명 응대) ·
+          <strong>금액</strong>(정산 규모) · <strong>비율</strong>(% 감소/증가) · <strong>시간</strong>(몇 분 단축)</p>
+        </div>
+        <div class="callout amber mt-m">
+          <p><strong>정확한 숫자를 모른다면?</strong><br>
+          “하루 평균 약 <strong>50명</strong>” 처럼 <span class="ak">‘평균’ ‘약’</span>을 붙여 쓰세요.
+          거짓말이 아니고, 면접에서도 그대로 말하면 됩니다. <strong>다만 절대 부풀리지 마세요.</strong>
+          면접관은 20년 동안 부풀린 숫자만 봐온 사람들입니다.</p>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="compare" style="grid-template-columns:1fr">
+          <div class="cmp bad">
+            <div class="cmp-h"><span class="ic">✕</span> 이렇게 쓰면 안 읽힙니다</div>
+            <div class="cmp-body">“카페에서 아르바이트를 하며 성실하게 근무하였고, 책임감 있게 맡은 일을 수행하였습니다.”</div>
+            <div class="cmp-note">성실·책임감은 <strong>모든 지원자가 쓰는 단어</strong>입니다. 아무 정보가 없습니다.</div>
+          </div>
+          <div class="cmp good">
+            <div class="cmp-h"><span class="ic">✓</span> 이렇게 씁니다</div>
+            <div class="cmp-body">“<strong>14개월간</strong> 카페 마감 근무를 맡아 <strong>하루 평균 약 80건</strong>의 주문을 처리하고
+            <strong>일일 정산(현금·카드) 100%</strong>를 마감 시간 내에 완료했습니다. 재고 발주 기록을 엑셀로 정리해
+            <strong>월 재고 부족 발생을 3회에서 0회로</strong> 줄였습니다.”</div>
+            <div class="cmp-note">같은 아르바이트입니다. <span class="mk">기록의 차이</span>일 뿐입니다.
+            그리고 이 문장은 면접에서 3분간 말할 수 있는 내용입니다.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 -->
+<section class="slide" data-title="이력서 문장 고치기 — 3쌍 비교" data-part="PART 02">
+  <div class="slide-inner">
+    <span class="kicker reveal">BEFORE / AFTER</span>
+    <h2 class="reveal">이력서 문장, 이렇게 고칩니다</h2>
+    <div class="reveal">
+      <div class="tabs-nav">
+        <button class="tab-btn on" data-tab="c1">① 한 줄 소개</button>
+        <button class="tab-btn" data-tab="c2">② 아르바이트 경험</button>
+        <button class="tab-btn" data-tab="c3">③ 자격 &amp; 기술</button>
+      </div>
+
+      <div class="tab-panel on" data-tab="c1">
+        <div class="compare">
+          <div class="cmp bad">
+            <div class="cmp-h"><span class="ic">✕</span> BEFORE</div>
+            <div class="cmp-body">“항상 배우려는 자세로 열심히 노력하는 성실한 인재입니다.”</div>
+            <div class="cmp-note">이 문장을 빼도 이력서가 똑같습니다. 즉, <strong>정보량이 0</strong>입니다.</div>
+          </div>
+          <div class="cmp good">
+            <div class="cmp-h"><span class="ic">✓</span> AFTER</div>
+            <div class="cmp-body">“<strong>고객 응대와 정산 업무를 14개월간 맡아본</strong> 사무 지원 인력입니다.
+            엑셀로 일일 데이터를 정리해왔고, <strong>AI 도구로 반복 문서 작업을 단축</strong>하는 방식을 익히고 있습니다.”</div>
+            <div class="cmp-note">3초 안에 <strong>“이 사람은 무엇을 할 수 있는 사람인가”</strong>가 전달됩니다.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-tab="c2">
+        <div class="compare">
+          <div class="cmp bad">
+            <div class="cmp-h"><span class="ic">✕</span> BEFORE</div>
+            <div class="cmp-body">“○○편의점 (2024.03 ~ 2025.05) — 매장 관리 및 고객 응대”</div>
+            <div class="cmp-note">직함만 있고 <strong>한 일이 없습니다.</strong> 담당자는 이걸로 판단할 수 없습니다.</div>
+          </div>
+          <div class="cmp good">
+            <div class="cmp-h"><span class="ic">✓</span> AFTER</div>
+            <div class="cmp-body">“○○편의점 · 야간 근무 (2024.03 ~ 2025.05, 15개월)<br>
+            · <strong>일 평균 약 120명</strong> 고객 응대, 무단 결품 0건 유지<br>
+            · <strong>발주·검수 전담</strong>, 발주 누락으로 인한 품절 <strong>월 4회 → 1회</strong>로 개선<br>
+            · 신입 아르바이트 <strong>3명</strong> 업무 인수인계 담당”</div>
+            <div class="cmp-note">세 줄이면 충분합니다. <span class="mk">한 일 / 숫자 / 개선</span> 순서로 씁니다.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-tab="c3">
+        <div class="compare">
+          <div class="cmp bad">
+            <div class="cmp-h"><span class="ic">✕</span> BEFORE</div>
+            <div class="cmp-body">“컴퓨터 활용 가능 / MS Office 능숙 / AI 관심 많음”</div>
+            <div class="cmp-note">“능숙”, “관심 많음”은 <strong>검증할 수 없는 말</strong>입니다. 면접에서 반드시 되물어봅니다.</div>
+          </div>
+          <div class="cmp good">
+            <div class="cmp-h"><span class="ic">✓</span> AFTER</div>
+            <div class="cmp-body">
+            · 컴퓨터활용능력 2급 (2025.08 취득)<br>
+            · 엑셀 — <strong>VLOOKUP·피벗테이블</strong>로 월 정산표 작성 가능<br>
+            · 한글 — 공문 양식 작성 가능<br>
+            · <strong>AI 활용</strong> — 채용공고 분석·문서 초안 작성에 활용,
+            <strong>주 3회 이상 사용 중</strong>. 결과물 예시 별도 제출 가능</div>
+            <div class="cmp-note">마지막 줄이 핵심입니다. <span class="mk">“예시 제출 가능”</span>이 붙는 순간
+            그 사람은 진짜로 쓰는 사람이 됩니다. <strong>그러니 정말로 준비해두세요.</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 -->
+<section class="slide" data-title="이력서 실무 체크 — 파일명·형식" data-part="PART 02">
+  <div class="slide-inner">
+    <span class="kicker reveal">PRACTICAL</span>
+    <h2 class="reveal">놓치면 손해 보는 실무 디테일</h2>
+    <div class="grid cols-3 reveal">
+      <div class="card brk mint">
+        <span class="c-tag">01 · 파일명</span>
+        <h3>이름을 넣으세요</h3>
+        <p><span class="ck">이력서_최종_최종2.hwp</span> ✕<br>
+        <span class="mk">이력서_홍길동_사무직.pdf</span> ✓<br><br>
+        담당자 폴더에 이력서 200개가 쌓여 있습니다. 이름 없는 파일은 못 찾습니다.</p>
+      </div>
+      <div class="card brk blue">
+        <span class="c-tag">02 · 파일 형식</span>
+        <h3>PDF로 보내세요</h3>
+        <p>한글·워드로 보내면 <strong>상대 컴퓨터에서 줄이 밀립니다.</strong>
+        공고에서 특정 양식을 요구하지 않는 한 PDF가 안전합니다.
+        <span class="small">(공고에 양식이 있으면 무조건 그 양식을 쓰세요)</span></p>
+      </div>
+      <div class="card brk amber">
+        <span class="c-tag">03 · 이메일</span>
+        <h3>주소와 제목</h3>
+        <p>이메일 주소가 <span class="ck">cutie_angel_98@…</span> 이면 오늘 바꾸세요.<br>
+        제목: <strong>[사무직 지원] 홍길동 이력서</strong><br>
+        본문 없이 첨부만 보내면 감점입니다. 3–4줄이라도 쓰세요.</p>
+      </div>
+      <div class="card brk coral">
+        <span class="c-tag">04 · 맞춤법</span>
+        <h3>오타 하나가 탈락 사유</h3>
+        <p>AI에게 <strong>“맞춤법과 띄어쓰기만 검사해줘. 내용은 바꾸지 마”</strong>라고 시키세요.
+        문장을 고치라고 하면 AI 문체로 바뀌어버립니다.</p>
+      </div>
+      <div class="card brk">
+        <span class="c-tag">05 · 연락처</span>
+        <h3>받을 수 있는 번호인가</h3>
+        <p>모르는 번호를 안 받는 습관이 있다면, 지원 기간에는 <strong>반드시 받으세요.</strong>
+        두 번 전화해서 안 받으면 다음 사람에게 넘어갑니다. 부재중 확인 후 <strong>당일 회신</strong>.</p>
+      </div>
+      <div class="card brk">
+        <span class="c-tag">06 · 마감</span>
+        <h3>마감 3일 전 제출</h3>
+        <p>마감일에 몰리면 대충 읽힙니다. 일찍 낸 이력서가 <strong>더 오래 읽힙니다.</strong>
+        실제로 그렇습니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 PART 03 -->
+<section class="slide slide--part" data-title="PART 03 — 자기소개서 실전" data-part="PART 03">
+  <div class="slide-inner">
+    <div class="part-num reveal">03</div>
+    <h1 class="reveal">자기소개서 —<br>문항별 실전</h1>
+    <p class="part-desc lead reveal">자소서가 줄어들고 있다고 해서 없어진 건 아닙니다.<br>
+    <span class="mk">줄어든 만큼, 남은 문항 하나하나의 무게가 커졌습니다.</span></p>
+  </div>
+</section>
+
+<!-- 14 -->
+<section class="slide" data-title="자소서 4문항 공식" data-part="PART 03">
+  <div class="slide-inner">
+    <span class="kicker reveal">4 QUESTIONS</span>
+    <h2 class="reveal">결국 묻는 건 <span class="mk">네 가지</span>입니다</h2>
+    <p class="lead reveal">문항 표현은 회사마다 달라도, 실제로 알고 싶어 하는 건 항상 이 넷입니다.</p>
+    <div class="acc mt-m reveal">
+      <div class="acc-item open">
+        <button class="acc-q"><span class="qn">Q1</span>왜 우리 회사인가 (지원동기)<span class="caret">▾</span></button>
+        <div class="acc-a">
+          진짜 질문은 <strong>“아무 데나 넣은 거 아니냐”</strong>입니다.<br>
+          <span class="tagline">필수 3요소</span>
+          ① 이 회사/기관에 대해 <strong>내가 확인한 사실 한 가지</strong> (홈페이지·기사·공고에서)<br>
+          ② 그 사실이 <strong>내 경험이나 관심과 연결되는 지점</strong><br>
+          ③ 그래서 내가 <strong>여기서 하고 싶은 구체적인 일</strong><br>
+          <span class="tagline">절대 금지</span>
+          “귀사의 비전에 깊이 공감하여” — 무슨 비전인지 안 쓰면 아무 회사에나 붙는 문장입니다.
+        </div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q"><span class="qn">Q2</span>무엇을 할 수 있는가 (강점·역량)<span class="caret">▾</span></button>
+        <div class="acc-a">
+          진짜 질문은 <strong>“뽑으면 바로 쓸 수 있느냐”</strong>입니다.<br>
+          <span class="tagline">구조</span>
+          강점 한 단어 → <strong>그 강점이 드러난 구체적 상황</strong> → 내가 한 행동 → 숫자로 된 결과<br>
+          <span class="tagline">요령</span>
+          강점은 <strong>딱 하나만</strong> 쓰세요. 세 개 쓰면 셋 다 안 남습니다.
+          그리고 지원 직무에서 <strong>실제로 쓰이는 강점</strong>을 고르세요.
+          사무직에 “체력이 좋습니다”는 연결이 안 됩니다.
+        </div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q"><span class="qn">Q3</span>사람들과 잘 지내는가 (협업·갈등)<span class="caret">▾</span></button>
+        <div class="acc-a">
+          진짜 질문은 <strong>“들어와서 문제 일으키지 않겠느냐”</strong>입니다. 중소기업일수록 이 질문의 비중이 큽니다.<br>
+          <span class="tagline">구조</span>
+          갈등 상황 → <strong>상대 입장을 이해하려 한 행동</strong> → 내가 먼저 한 양보나 제안 → 결과 → 배운 점<br>
+          <span class="tagline">절대 금지</span>
+          상대를 탓하는 서술. “그 사람이 비협조적이어서…”라고 쓰는 순간, 면접관은
+          <strong>“이 사람도 우리 회사 와서 남 탓하겠구나”</strong>라고 읽습니다. 사실이 그렇더라도 쓰지 마세요.
+        </div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-q"><span class="qn">Q4</span>오래 다닐 것인가 (입사 후 계획)<span class="caret">▾</span></button>
+        <div class="acc-a">
+          진짜 질문은 <strong>“6개월 만에 나가지 않겠느냐”</strong>입니다. 중소기업 채용의 최대 고민입니다.<br>
+          <span class="tagline">구조</span>
+          입사 후 <strong>3개월 / 1년 / 3년</strong> 단위로 나눠 쓰세요.<br>
+          · 3개월 — 업무와 사람을 익히고, 맡은 일을 실수 없이<br>
+          · 1년 — 혼자 처리할 수 있는 업무 범위를 넓히고 자격증 하나 추가<br>
+          · 3년 — 후배에게 인수인계할 수 있는 수준<br>
+          <span class="tagline">효과</span>
+          이렇게 쓰면 <strong>“여기서 오래 그릴 그림이 있는 사람”</strong>으로 보입니다. 가장 강력한 한 수입니다.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 15 -->
+<section class="slide" data-title="첫 문장 3초 법칙" data-part="PART 03">
+  <div class="slide-inner">
+    <span class="kicker coral reveal">THE FIRST 3 SECONDS</span>
+    <h2 class="reveal">첫 문장에서 <span class="ck">3초</span> 만에 갈립니다</h2>
+    <p class="lead reveal">제가 면접관으로 서류를 검토할 때, 한 장에 쓰는 시간은 평균 <strong>30초 남짓</strong>이었습니다.
+    그 중 첫 문장이 <strong>계속 읽을지 말지</strong>를 결정했습니다.</p>
+    <div class="grid cols-2 mt-m">
+      <div class="reveal">
+        <div class="cmp bad">
+          <div class="cmp-h"><span class="ic">✕</span> 바로 넘겨지는 첫 문장</div>
+          <div class="cmp-body" style="font-size:14px">
+          · “저는 1999년 대구에서 1남 1녀 중 장남으로 태어나…”<br>
+          · “귀사의 무궁한 발전을 기원하며 지원하게 되었습니다.”<br>
+          · “어릴 적부터 꿈은…”<br>
+          · “저는 성실하고 책임감이 강한 사람입니다.”<br>
+          · “안녕하십니까. 지원자 ○○○입니다.”
+          </div>
+          <div class="cmp-note">공통점 — <strong>아무 정보가 없고, 전부가 똑같이 씁니다.</strong></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="cmp good">
+          <div class="cmp-h"><span class="ic">✓</span> 계속 읽게 되는 5가지 패턴</div>
+          <div class="cmp-body" style="font-size:14px">
+          <strong>① 숫자로 시작</strong><br>“14개월간 야간 매장을 혼자 마감했습니다.”<br><br>
+          <strong>② 결과로 시작</strong><br>“제가 맡은 뒤 재고 품절이 월 4회에서 1회로 줄었습니다.”<br><br>
+          <strong>③ 회사에 대한 사실로 시작</strong><br>“귀 기관이 올해 시작한 청년 자립지원 사업을 보고 지원했습니다.”<br><br>
+          <strong>④ 내가 할 수 있는 일로 시작</strong><br>“정산과 문서 정리, 두 가지는 첫날부터 맡을 수 있습니다.”<br><br>
+          <strong>⑤ 짧은 장면으로 시작</strong><br>“새벽 두 시, 계산이 3,000원 맞지 않았습니다.”
+          </div>
+          <div class="cmp-note">⑤번은 강력하지만 위험합니다. <strong>두 문장 안에 반드시 결론</strong>으로 넘어가세요.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 16 -->
+<section class="slide" data-title="자기소개서 전문 비교 — 나쁜 예 / 좋은 예" data-part="PART 03">
+  <div class="slide-inner">
+    <span class="kicker reveal">FULL EXAMPLE</span>
+    <h2 class="reveal">실제 자소서, 전문 비교</h2>
+    <p class="small reveal" style="margin-bottom:18px">문항: “지원 동기와 입사 후 하고 싶은 일을 기술하시오” · 지원처: 지역 물류회사 사무직 · 지원자: 경력 없는 24세</p>
+    <div class="reveal">
+      <div class="tabs-nav">
+        <button class="tab-btn on" data-tab="bad">✕ 나쁜 예</button>
+        <button class="tab-btn" data-tab="good">✓ 좋은 예</button>
+        <button class="tab-btn" data-tab="why">해설 — 무엇이 달랐나</button>
+      </div>
+
+      <div class="tab-panel on" data-tab="bad">
+        <div class="cmp bad">
+          <div class="cmp-h"><span class="ic">✕</span> 이 자소서는 서류에서 떨어집니다</div>
+          <div class="cmp-body" style="font-size:14.5px">
+          안녕하십니까. 지원자 ○○○입니다. 저는 어릴 적부터 성실함을 가장 큰 가치로 여기며 살아왔습니다.
+          맡은 일은 끝까지 책임지는 자세로 임해왔으며, 어떤 어려움이 있어도 포기하지 않는 근성을 갖추고 있습니다.<br><br>
+          귀사는 물류 업계에서 탄탄한 성장을 이어오고 있는 기업으로, 저는 귀사의 비전에 깊이 공감하여 지원하게 되었습니다.
+          귀사의 일원이 되어 회사의 발전에 기여하고 싶습니다.<br><br>
+          입사하게 된다면 빠르게 업무를 습득하여 회사에 보탬이 되는 인재가 되겠습니다.
+          항상 배우는 자세로 최선을 다하겠습니다. 감사합니다.
+          </div>
+          <div class="cmp-note"><strong>문제 진단</strong> — 회사 이름만 바꾸면 <span class="ck">어느 회사에나 그대로 낼 수 있는 글</span>입니다.
+          지원자에 대한 정보가 <strong>단 하나도</strong> 없습니다. 담당자는 8초 만에 넘깁니다.</div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-tab="good">
+        <div class="cmp good">
+          <div class="cmp-h"><span class="ic">✓</span> 같은 사람, 같은 경험으로 다시 쓴 것</div>
+          <div class="cmp-body" style="font-size:14.5px">
+          <strong>14개월간 편의점 야간 발주와 검수를 혼자 맡았습니다.</strong> 처음엔 품절이 월 4회씩 났습니다.
+          엑셀로 요일별 판매량을 기록하기 시작했고, 6개월 뒤 품절은 <strong>월 1회 이하</strong>로 줄었습니다.
+          재고를 숫자로 보는 습관은 그때 생겼습니다.<br><br>
+          귀사 채용공고에서 <strong>‘입출고 데이터 정리와 거래처 응대’</strong>가 주 업무라는 점을 보고 지원했습니다.
+          제가 매장에서 하던 일이 규모만 커진 것이라고 생각했습니다. 홈페이지에서 귀사가 올해
+          <strong>대구·경북 지역 배송망을 확대</strong>하고 있다는 내용을 확인했고, 물량이 늘어날수록
+          기록을 정확히 남기는 사람이 필요해진다고 판단했습니다.<br><br>
+          입사 후 <strong>3개월</strong> 안에 입출고 양식과 거래처 응대 절차를 익혀 실수 없이 처리하겠습니다.
+          <strong>1년</strong> 안에는 물류관리사 자격을 취득하고, 반복되는 문서 작업은
+          AI 도구로 양식화해 처리 시간을 줄여보고 싶습니다. 실제로 지난달부터 AI로 정산 문서 초안을 만드는 연습을 하고 있고,
+          필요하시면 결과물을 보여드릴 수 있습니다.<br><br>
+          <strong>3년</strong> 뒤에는 새로 들어온 직원에게 이 업무를 인수인계할 수 있는 사람이 되어 있겠습니다.
+          </div>
+          <div class="cmp-note">경험은 <strong>똑같이 편의점 아르바이트 하나</strong>입니다. 새로 만들어낸 사실은 없습니다.</div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-tab="why">
+        <div class="grid cols-2">
+          <div class="card brk mint">
+            <span class="c-tag">달라진 점 1</span>
+            <h3>첫 문장에 숫자가 있다</h3>
+            <p>“성실합니다” 대신 “14개월간 혼자 맡았습니다”. 읽는 사람이 <strong>장면을 떠올릴 수 있습니다.</strong></p>
+          </div>
+          <div class="card brk mint">
+            <span class="c-tag">달라진 점 2</span>
+            <h3>회사를 실제로 조사했다</h3>
+            <p>공고의 <strong>업무 내용</strong>과 홈페이지의 <strong>사업 확대 소식</strong>을 인용했습니다.
+            이것만으로 “아무 데나 넣은 사람”에서 벗어납니다.</p>
+          </div>
+          <div class="card brk mint">
+            <span class="c-tag">달라진 점 3</span>
+            <h3>내 경험과 직무를 연결했다</h3>
+            <p>“매장에서 하던 일이 규모만 커진 것” — 경력이 없어도
+            <strong>연결을 만들면 경험이 됩니다.</strong></p>
+          </div>
+          <div class="card brk mint">
+            <span class="c-tag">달라진 점 4</span>
+            <h3>3개월/1년/3년으로 나눴다</h3>
+            <p>“최선을 다하겠습니다” 대신 구체적 계획. <strong>오래 다닐 사람</strong>으로 읽힙니다.</p>
+          </div>
+          <div class="card brk amber">
+            <span class="c-tag">달라진 점 5 · 2026년 포인트</span>
+            <h3>AI 활용을 결과물로 제시했다</h3>
+            <p>“AI에 관심이 많습니다”가 아니라 <strong>“연습 중이고, 결과물을 보여드릴 수 있습니다”</strong>.
+            이 한 줄이 91% 사이에서 튀어나오게 만듭니다.</p>
+          </div>
+          <div class="card brk coral">
+            <span class="c-tag">가장 중요한 점</span>
+            <h3>전부 면접에서 말할 수 있다</h3>
+            <p>이 자소서에 적힌 모든 문장은 <strong>실제로 겪은 일</strong>입니다.
+            그래서 면접에서 무너지지 않습니다. 이게 유일한 기준입니다.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 17 -->
+<section class="slide" data-title="공백기·경력 없음, 어떻게 쓸까" data-part="PART 03">
+  <div class="slide-inner">
+    <span class="kicker amber reveal">SENSITIVE PART</span>
+    <h2 class="reveal">공백기와 “경력 없음”, 어떻게 쓸까</h2>
+    <p class="lead reveal">가장 많이 받는 질문입니다. 먼저 분명히 말씀드리면 —
+    <strong>공백기가 있다는 사실 자체로 떨어지지는 않습니다.</strong> 떨어지는 건 <span class="ck">설명을 못 할 때</span>입니다.</p>
+    <div class="grid cols-3 mt-m reveal">
+      <div class="card brk coral">
+        <span class="c-tag">하지 말 것 1</span>
+        <h3>숨기기</h3>
+        <p>날짜를 흐리게 쓰거나 비워두면 면접에서 <strong>반드시</strong> 물어봅니다.
+        그때 당황하는 게 가장 나쁩니다. <strong>먼저 쓰고 먼저 설명하세요.</strong></p>
+      </div>
+      <div class="card brk coral">
+        <span class="c-tag">하지 말 것 2</span>
+        <h3>과하게 설명하기</h3>
+        <p>개인사·가정사를 길게 쓸 필요 없습니다. <strong>두 문장이면 충분합니다.</strong>
+        길어질수록 변명처럼 읽힙니다.</p>
+      </div>
+      <div class="card brk mint">
+        <span class="c-tag">할 것</span>
+        <h3>“그 기간에 한 것”으로 채우기</h3>
+        <p>자격증 준비, 직업훈련, 아르바이트, 건강 회복, 가족 돌봄 —
+        <strong>무엇이든 한 가지를 사실대로</strong> 적고 <strong>지금은 준비가 끝났다</strong>로 마무리합니다.</p>
+      </div>
+    </div>
+    <div class="compare mt-l reveal">
+      <div class="cmp bad">
+        <div class="cmp-h"><span class="ic">✕</span> 이렇게 쓰면</div>
+        <div class="cmp-body">“개인적인 사정으로 인해 한동안 취업 준비를 하지 못했습니다. 죄송하게 생각하며…”</div>
+        <div class="cmp-note">사과할 일이 아닙니다. 사과로 시작하면 <strong>읽는 사람도 문제로 인식</strong>합니다.</div>
+      </div>
+      <div class="cmp good">
+        <div class="cmp-h"><span class="ic">✓</span> 이렇게 씁니다</div>
+        <div class="cmp-body">“2025년 상반기에는 생활 기반을 정리하는 데 시간을 썼습니다.
+        그 기간에 <strong>컴퓨터활용능력 2급을 취득</strong>했고, 하반기부터는 주 4일 근무를 이어오며 근무 리듬을 회복했습니다.
+        지금은 <strong>전일제 근무가 가능한 상태</strong>입니다.”</div>
+        <div class="cmp-note">사실 + 그 기간의 성취 + <span class="mk">현재 상태 확인</span>. 이 세 박자면 끝납니다.</div>
+      </div>
+    </div>
+    <div class="callout mt-m reveal">
+      <p><strong>덧붙입니다.</strong> 혼자 생활을 꾸려본 경험, 스스로 결정하고 책임져본 경험은
+      <span class="mk">많은 또래가 갖지 못한 자산</span>입니다. 다만 이력서에는 <strong>사적인 사정이 아니라
+      그 과정에서 생긴 능력</strong>으로 적으세요. “예산을 직접 관리해왔습니다”, “스스로 일정을 세우고 지켜왔습니다” 처럼.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 18 -->
+<section class="slide" data-title="지원처별 포인트 — 복지관 / 중소기업" data-part="PART 03">
+  <div class="slide-inner">
+    <span class="kicker reveal">TARGETING</span>
+    <h2 class="reveal">지원처가 다르면 <span class="mk">강조점도 달라집니다</span></h2>
+    <div class="compare reveal">
+      <div class="cmp good" style="border-color:rgba(124,156,255,.36);background:linear-gradient(160deg,rgba(124,156,255,.09),transparent)">
+        <div class="cmp-h" style="color:var(--blue)"><span class="ic" style="background:var(--blue);color:#0A1430">복</span> 복지관 · 사회복지시설</div>
+        <div class="cmp-body" style="font-size:14px">
+        <strong>이들이 가장 두려워하는 것</strong><br>
+        이용자에게 상처를 주는 직원, 그리고 6개월 만에 그만두는 직원.<br><br>
+        <strong>그래서 봐야 할 것</strong><br>
+        · <span class="bk">사람을 대해본 구체적 경험</span> (어르신·아동·손님 무엇이든)<br>
+        · 감정적으로 힘든 상황에서 <strong>스스로를 관리한 방법</strong><br>
+        · 이 분야에서 일하고 싶은 <strong>개인적이되 담백한 이유</strong><br>
+        · 기록·문서 작업 능력 <span class="small">(복지 현장은 서류가 정말 많습니다)</span><br><br>
+        <strong>쓰면 좋은 문장</strong><br>
+        “힘든 시기에 도움을 받아본 경험이 있어, 그 자리에서 일하는 사람의 태도가
+        얼마나 큰 차이를 만드는지 알고 있습니다.”
+        </div>
+        <div class="cmp-note">단, <strong>시혜적으로 쓰지 마세요.</strong>
+        “불쌍한 분들을 돕고 싶다”는 이 분야에서 가장 경계하는 표현입니다.
+        <span class="bk">‘돕는다’가 아니라 ‘함께 일한다’</span>로 쓰세요.</div>
+      </div>
+      <div class="cmp good" style="border-color:rgba(255,194,77,.36);background:linear-gradient(160deg,rgba(255,194,77,.09),transparent)">
+        <div class="cmp-h" style="color:var(--amber)"><span class="ic" style="background:var(--amber);color:#2A1D02">중</span> 중소기업</div>
+        <div class="cmp-body" style="font-size:14px">
+        <strong>이들이 가장 두려워하는 것</strong><br>
+        가르쳐놨더니 대기업 가버리는 직원, 그리고 시키는 일만 하는 직원.<br><br>
+        <strong>그래서 봐야 할 것</strong><br>
+        · <span class="ak">바로 투입 가능한가</span> (엑셀·문서·운전 등 당장 쓰는 기술)<br>
+        · <strong>여러 일을 동시에</strong> 할 수 있는가 (중소기업은 업무 경계가 넓습니다)<br>
+        · <strong>오래 다닐 사람인가</strong> — 지역 연고, 정착 의지가 큰 가점<br>
+        · 스스로 찾아서 하는 사람인가<br><br>
+        <strong>쓰면 좋은 문장</strong><br>
+        “대구에 계속 거주할 계획이고, 이 지역에서 오래 일할 회사를 찾고 있습니다.”
+        </div>
+        <div class="cmp-note"><strong>지역 연고를 반드시 쓰세요.</strong> 중소기업 인사담당자에게
+        “여기 계속 살 사람”이라는 정보는 <span class="ak">스펙보다 강력합니다.</span>
+        이직률이 그들의 가장 큰 비용이기 때문입니다.</div>
+      </div>
+    </div>
+    <div class="callout mt-m reveal">
+      <p><strong>공통 팁</strong> — 자소서는 <span class="mk">하나를 써서 여러 곳에 내는 게 아닙니다.</span>
+      본문 80%는 공통으로 두고, <strong>지원동기 문단과 마지막 문단만 매번 새로 쓰세요.</strong>
+      이 20%가 합격률을 두 배로 만듭니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 19 PART 04 -->
+<section class="slide slide--part" data-title="PART 04 — AI 활용 워크플로" data-part="PART 04">
+  <div class="slide-inner">
+    <div class="part-num reveal">04</div>
+    <h1 class="reveal">AI 활용 워크플로 —<br>순서를 지키면 안전합니다</h1>
+    <p class="part-desc lead reveal">이제 도구를 씁니다. 다만 <span class="ck">순서를 지켜야</span> AI 냄새가 나지 않습니다.</p>
+  </div>
+</section>
+
+<!-- 20 -->
+<section class="slide" data-title="6단계 워크플로" data-part="PART 04">
+  <div class="slide-inner">
+    <span class="kicker reveal">THE WORKFLOW</span>
+    <h2 class="reveal">서류 작성 <span class="mk">6단계</span></h2>
+    <div class="steps reveal" style="grid-template-columns:repeat(auto-fit,minmax(175px,1fr))">
+      <div class="step"><div class="sn">1</div><h4>내 사실 모으기</h4><p><strong>AI 없이</strong> 종이에 씁니다. 기간·역할·숫자. 이 단계를 건너뛰면 전부 망합니다.</p></div>
+      <div class="step"><div class="sn">2</div><h4>공고 분석</h4><p>채용공고를 AI에 올리고 “이 직무가 원하는 사람의 조건 5가지”를 뽑습니다.</p></div>
+      <div class="step"><div class="sn">3</div><h4>연결 찾기</h4><p>1번과 2번을 AI에 같이 주고 <strong>“겹치는 지점”</strong>을 찾게 합니다.</p></div>
+      <div class="step"><div class="sn">4</div><h4>초안 받기</h4><p>연결점을 근거로 초안 작성. <strong>“내가 준 사실만 써”</strong>를 반드시 넣습니다.</p></div>
+      <div class="step"><div class="sn">5</div><h4>내 말로 교정</h4><p>가장 중요. 문장을 소리 내어 읽고 <strong>내 입에 안 붙는 표현은 전부 교체</strong>합니다.</p></div>
+      <div class="step"><div class="sn">6</div><h4>사실 검증</h4><p>숫자·회사명·날짜를 <strong>원문에서</strong> 다시 확인. 없던 일은 삭제.</p></div>
+    </div>
+    <div class="grid cols-2 mt-l">
+      <div class="callout coral reveal">
+        <p><strong>가장 많이 틀리는 지점</strong> — 1번을 건너뛰고 4번부터 시작하는 것.
+        AI에게 먼저 쓰게 하면 <span class="ck">내 것이 아닌 이야기가 뼈대가 됩니다.</span>
+        나중에 아무리 고쳐도 남의 옷을 입은 느낌이 사라지지 않습니다.</p>
+      </div>
+      <div class="callout reveal">
+        <p><strong>5번에 시간을 가장 많이 쓰세요.</strong> 전체 작업 시간의 절반을 여기에 쓰는 게 맞습니다.
+        <span class="mk">AI가 30분 만에 만든 초안을, 내가 1시간 들여 내 것으로 만드는 작업</span>입니다.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 21 -->
+<section class="slide" data-title="언제든 다시 꺼내 쓰는 프롬프트 5종 세트" data-part="PART 04 · 활용법">
+  <div class="slide-inner">
+    <span class="kicker amber reveal">READY TO USE</span>
+    <h2 class="reveal">그대로 복사해서 쓰는 프롬프트 <span class="ak">5종</span></h2>
+    <p class="lead reveal">지금 받아 적지 마세요. <strong>이 다섯 장은 이 사이트에 그대로 남아 있습니다.</strong>
+    나중에 컴퓨터 앞에 앉게 됐을 때 이 화면을 열고 <span class="ak">[복사] 버튼</span>만 누르면 됩니다.
+    빈칸만 내 것으로 바꿔서 쓰시면 됩니다. 지금은 제가 하나씩 설명해 드리겠습니다.</p>
+    <div class="reveal">
+      <div class="tabs-nav">
+        <button class="tab-btn on" data-tab="p1">① 공고 분석</button>
+        <button class="tab-btn" data-tab="p2">② 경험 발굴</button>
+        <button class="tab-btn" data-tab="p3">③ 초안 작성</button>
+        <button class="tab-btn" data-tab="p4">④ 문체 교정</button>
+        <button class="tab-btn" data-tab="p5">⑤ 면접 대비</button>
+      </div>
+
+      <div class="tab-panel on" data-tab="p1">
+        <div class="prompt">
+          <div class="p-h"><b>채용공고 분석 프롬프트</b><button class="copy-btn">복사</button></div>
+<pre>아래는 내가 지원하려는 채용공고야. (공고 내용 붙여넣기)
+
+이 공고를 읽고 다음을 정리해줘.
+1. 이 회사가 이 자리에서 실제로 시키려는 일 5가지 (공고 문구 말고 실제 업무로)
+2. 겉으로 안 썼지만 원하고 있을 조건 3가지
+3. 지원자가 준비하면 가장 눈에 띌 것 2가지
+4. 이 공고에서 확인할 수 없어서 내가 따로 조사해야 할 것
+
+추측한 부분은 '[추정]'이라고 표시해줘.</pre>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-tab="p2">
+        <div class="prompt">
+          <div class="p-h"><b>경험 발굴 프롬프트</b><button class="copy-btn">복사</button></div>
+<pre>나는 정규직 경력이 없어. 내가 해본 일은 이게 전부야.
+(예: 편의점 야간 15개월, 카페 8개월, 요양원 봉사 20시간,
+ 컴퓨터활용능력 2급, 혼자 자취 3년)
+
+이 경험들에서 아래 직무와 연결할 수 있는 지점을 찾아줘.
+직무: (직무명 쓰기)
+
+조건:
+- 없는 경험을 만들어내지 마. 내가 쓴 것만 사용해.
+- 각 연결마다 '어떻게 연결되는지' 한 문장으로 설명해줘.
+- 내가 기억해내야 할 구체적 정보(숫자, 기간)가 있으면 질문으로 남겨줘.</pre>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-tab="p3">
+        <div class="prompt">
+          <div class="p-h"><b>자소서 초안 프롬프트</b><button class="copy-btn">복사</button></div>
+<pre>너는 중소기업에서 10년간 신입을 뽑아온 인사 담당자야.
+
+[내 사실] (위에서 정리한 경험을 숫자까지 포함해 붙여넣기)
+[지원처] (회사명 / 직무 / 내가 조사한 회사 정보 1~2가지)
+[문항] (자소서 문항 그대로 붙여넣기)
+
+위 정보만 사용해서 초안을 써줘.
+
+조건:
+- 글자 수: (공고에 적힌 글자 수)
+- 첫 문장은 숫자나 결과로 시작할 것
+- '성실', '책임감', '열정', '최선을 다하겠습니다'는 쓰지 말 것
+- 내가 주지 않은 사실은 절대 만들어내지 말 것
+- 정보가 부족한 부분은 [확인 필요]라고 표시하고 나에게 질문해줘</pre>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-tab="p4">
+        <div class="prompt">
+          <div class="p-h"><b>AI 문체 빼기 프롬프트</b><button class="copy-btn">복사</button></div>
+<pre>아래 글에서 'AI가 쓴 티'가 나는 부분을 찾아줘. (내 글 붙여넣기)
+
+특히 이런 것들을 지적해줘.
+- 지나치게 매끄럽고 균일한 문장 길이
+- 과장된 형용사와 부사
+- 실제 경험 없이 쓸 수 있는 추상적 표현
+- '~을 통해', '~에 있어', '~라는 점에서' 같은 번역투
+- 모든 문단이 같은 구조로 반복되는 부분
+
+고쳐주지는 말고, 어디가 왜 어색한지만 표시해줘.
+고치는 건 내가 직접 할게.</pre>
+        </div>
+        <div class="callout amber"><p><strong>마지막 두 줄이 핵심입니다.</strong> AI에게 고치라고 하면
+        다시 AI 문체가 됩니다. <span class="ak">지적만 받고 고치는 건 내가</span> — 이게 교정 단계의 철칙입니다.</p></div>
+      </div>
+
+      <div class="tab-panel" data-tab="p5">
+        <div class="prompt">
+          <div class="p-h"><b>자소서 → 예상 질문 뽑기</b><button class="copy-btn">복사</button></div>
+<pre>아래는 내가 제출할 자기소개서야. (전문 붙여넣기)
+
+너는 이 사람을 면접할 면접관이야.
+이 자소서를 읽고 던질 질문 10개를 만들어줘.
+
+조건:
+- 5개는 일반적인 확인 질문
+- 5개는 '이 부분 사실인가?'를 검증하는 압박 질문
+- 지원자가 가장 대답하기 곤란할 질문부터 순서대로
+
+그리고 각 질문마다, 내 자소서의 어느 문장 때문에 그 질문이 나오는지 표시해줘.</pre>
+        </div>
+        <div class="callout"><p>나중에 이걸 돌려보시면 <strong>내 자소서의 약한 고리</strong>가 바로 드러납니다.
+        대답 못 할 질문이 나온다면, 그 문장을 <span class="mk">제출 전에 고치세요.</span>
+        지금은 제가 화면에서 결과를 보여드리겠습니다. <strong>내일 3회차가 바로 여기서 이어집니다.</strong></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 22 -->
+<section class="slide" data-title="AI 냄새 빼는 교정 규칙 5" data-part="PART 04">
+  <div class="slide-inner">
+    <span class="kicker coral reveal">DE-AI RULES</span>
+    <h2 class="reveal">“AI가 썼네” 소리 안 듣는 <span class="ck">5가지 규칙</span></h2>
+    <table class="tbl reveal">
+      <thead><tr><th style="width:20%">규칙</th><th style="width:40%">AI가 쓰는 표현</th><th>이렇게 바꿉니다</th></tr></thead>
+      <tbody>
+        <tr>
+          <td>① 번역투 제거</td>
+          <td class="old">“~을 통해 성장할 수 있었습니다”<br>“~에 있어 중요한 것은”<br>“~라는 점에서 의미가 있습니다”</td>
+          <td class="new">“~하면서 배웠습니다”<br>“~에서 중요한 건”<br>“그래서 중요했습니다”</td>
+        </tr>
+        <tr>
+          <td>② 문장 길이 흔들기</td>
+          <td class="old">모든 문장이 40~50자로 고르게 이어짐</td>
+          <td class="new">긴 문장 뒤에 <strong>짧은 문장</strong>을 하나 넣습니다. 이렇게.</td>
+        </tr>
+        <tr>
+          <td>③ 형용사 걷어내기</td>
+          <td class="old">“진정한”, “값진”, “소중한”, “무한한”, “깊이 공감”</td>
+          <td class="new">전부 삭제. 대신 <strong>그 감정이 생긴 상황</strong>을 한 줄 씁니다.</td>
+        </tr>
+        <tr>
+          <td>④ 구체명사 넣기</td>
+          <td class="old">“다양한 업무를 경험하며”</td>
+          <td class="new">“발주·검수·정산 세 가지를 맡으며”</td>
+        </tr>
+        <tr>
+          <td>⑤ 소리 내어 읽기</td>
+          <td class="old">눈으로만 읽고 제출</td>
+          <td class="new"><strong>입으로 읽어봅니다.</strong> 숨이 막히거나 어색한 문장이 곧 AI 문장입니다.</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="callout mt-l reveal">
+      <p class="q">가장 확실한 검사법 —<br><span class="mk">“이 문장, 내가 친구한테 말로 할 수 있나?”</span></p>
+      <p class="mt-s">말로 못 하는 문장은 면접에서도 못 합니다. 그럼 처음부터 쓰지 않는 게 맞습니다.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 23 -->
+<section class="slide" data-title="제출 전 최종 점검 체크리스트" data-part="PART 04">
+  <div class="slide-inner">
+    <span class="kicker reveal">FINAL CHECK</span>
+    <h2 class="reveal">제출 버튼 누르기 전, 12가지</h2>
+    <div class="mt-m reveal">
+      <div class="checklist">
+        <button class="chk"><span class="box">✓</span><span class="txt">파일명에 <strong>내 이름과 지원 직무</strong>가 들어 있다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt"><strong>회사 이름</strong>을 다른 회사 것으로 잘못 쓴 곳이 없다 <span class="small">— 가장 흔한 탈락 사유</span></span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">첫 문장이 <strong>숫자·결과·회사 사실</strong> 중 하나로 시작한다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">“성실·책임감·열정·최선” 네 단어가 <strong>한 번도 안 나온다</strong></span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">모든 경험에 <strong>기간과 숫자</strong>가 붙어 있다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">지원동기에 <strong>그 회사에서만 확인할 수 있는 사실</strong>이 하나 이상 있다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">입사 후 계획이 <strong>3개월/1년/3년</strong>으로 나뉘어 있다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">적힌 모든 문장에 대해 <strong>면접에서 3분씩 말할 수 있다</strong></span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">소리 내어 <strong>끝까지 읽어봤다</strong></span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">맞춤법 검사를 <strong>사람 눈으로</strong> 한 번 더 했다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">PDF로 변환해서 <strong>줄이 안 밀렸는지</strong> 확인했다</span></button>
+        <button class="chk"><span class="box">✓</span><span class="txt">제출 이메일 <strong>본문</strong>도 3~4줄 썼다</span></button>
+      </div>
+      <div class="chk-score">// 완료 0 / 12</div>
+    </div>
+  </div>
+</section>
+
+<!-- 24 -->
+<section class="slide" data-title="[시연] 한 줄이 이력서가 되기까지" data-part="PART 04 · 시연">
+  <div class="slide-inner">
+    <span class="kicker amber reveal">LIVE DEMO · 20분</span>
+    <h2 class="reveal">한 줄이 이력서가 되기까지, <span class="ak">화면에서 보여드리겠습니다</span></h2>
+    <div class="two-col">
+      <div class="reveal">
+        <div class="steps" style="grid-template-columns:1fr">
+          <div class="step"><div class="sn">0</div><h4>처음 말하는 방식</h4><p style="color:var(--ink-3)">“편의점에서 알바 좀 했어요.”<br><span class="small">— 여기서 시작합니다. 대부분 이렇게 말씀하십니다.</span></p></div>
+          <div class="step"><div class="sn">1</div><h4>사실만 적기</h4><p>“○○편의점 야간 근무<br>2024.03 ~ 2025.05”<br><span class="small">AI를 켜기 전에 하는 일입니다.</span></p></div>
+          <div class="step"><div class="sn">2</div><h4>숫자 붙이기</h4><p>“<strong>15개월</strong>, 일 평균 <strong>약 120명</strong> 응대,<br>발주·검수 전담, 품절 <strong>월 4회→1회</strong>”<br><span class="small">기억이 흐리면 ‘약’을 붙입니다.</span></p></div>
+          <div class="step"><div class="sn">3</div><h4>AI에게 직무와 연결시키기</h4><p>②번 프롬프트를 넣으면 이 경험이 <strong>물류 사무직 언어</strong>로 번역돼 나옵니다.<br><span class="small">그 과정을 지금 화면에서 보여드립니다.</span></p></div>
+          <div class="step"><div class="sn">4</div><h4>내 말로 되돌리기</h4><p>AI 문장을 <strong>소리 내어 읽고</strong> 입에 안 붙는 단어를 바꿉니다.<br><span class="small">여기가 전체 작업의 절반입니다.</span></p></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="callout">
+          <p><strong>여러분의 경험으로 해보겠습니다.</strong> 한 분만 말씀해 주세요.
+          <span class="mk">“무슨 일을 얼마나 해보셨는지”</span> 한 문장이면 충분합니다.
+          적으실 필요 없이 말씀만 해주시면 제가 화면에서 단계별로 바꿔 보여드리겠습니다.</p>
+          <p class="mt-s small">말씀하기 어려우시면 위의 편의점 예시로 진행하겠습니다. 부담 갖지 않으셔도 됩니다.</p>
+        </div>
+        <div class="callout amber mt-m">
+          <p><strong>이 장의 5블록 구조는 이 사이트에 그대로 남아 있습니다.</strong>
+          오늘 여기서 쓰지 않으셔도 됩니다. <span class="ak">나중에 혼자 계실 때 이 화면을 열어놓고 순서대로 채워보시면 됩니다.</span>
+          채우신 것을 저에게 보내주시면 언제든 봐드리겠습니다.</p>
+        </div>
+        <div class="card brk mint mt-m">
+          <span class="c-tag">참고 · 자립준비청년 지원 제도</span>
+          <p style="font-size:13.5px;line-height:1.85">
+          취업 준비 과정에서 활용할 수 있는 제도들입니다.<br><br>
+          · <strong>자격증 취득비·직업훈련비</strong> 지원<br>
+          · <strong>중소기업 취업 시 소득세 감면</strong><br>
+          · 자립수당 · 자립정착금 · 의료비 지원<br>
+          · 국민취업지원제도(고용노동부) 병행 가능<br><br>
+          <span class="small" style="color:var(--amber) !important">※ 지원 내용과 금액은 지자체마다 다르고 <strong>매년 바뀝니다.</strong>
+          신청 전 반드시 거주지 주민센터 또는 <strong>아동권리보장원(1577-1391)</strong>에 확인하세요.</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 25 -->
+<section class="slide slide--end" data-title="마무리 & 다음 시간" data-part="CLOSING">
+  <div class="slide-inner">
+    <span class="kicker reveal">CLOSING</span>
+    <div class="big reveal">좋은 자소서는<br>잘 쓴 글이 아니라,<br>사실이 많은 글입니다.</div>
+    <p class="lead mt-m reveal" style="max-width:60ch">
+      AI는 문장을 다듬어줄 뿐입니다. <strong>사실은 여러분만 가지고 있습니다.</strong><br>
+      그래서 1단계(내 사실 모으기)를 건너뛰면 아무리 좋은 도구도 소용이 없습니다.
+    </p>
+    <div class="grid cols-2 mt-l reveal">
+      <div class="card brk coral">
+        <span class="c-tag">NEXT · 2026.10.22 (목) 14:00</span>
+        <h3>3회차 — 면접, 이렇게 하면 붙습니다</h3>
+        <p>20년간 면접관 자리에 앉아 있던 사람이, 합격자와 탈락자를 가른 진짜 차이를 말씀드립니다.
+        AI 역량검사 대비법과 면접 답변 시연까지.</p>
+      </div>
+      <div class="card brk amber">
+        <span class="c-tag">내일 오시기 전에 · 딱 하나만</span>
+        <h3>가장 듣기 싫은 질문 하나를 떠올려 보세요</h3>
+        <p>적어 오지 않으셔도 됩니다. <strong>머릿속에 하나만 담아 오세요.</strong><br>
+        “경력이 왜 없냐”, “그동안 뭐 했냐” 같은,
+        <strong class="ak">생각만 해도 답이 막히는 질문</strong> 하나면 됩니다.
+        내일 그 질문들을 모아서 제가 답하는 법을 보여드리겠습니다.</p>
+      </div>
+    </div>
+    <div class="callout mt-l reveal">
+      <p><strong>내일은 바로 다음 날입니다.</strong> 준비하실 것은 아무것도 없습니다.
+      몸만 오시면 됩니다.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="chrome-bot">
+  <button class="nav-btn" id="btn-prev" title="이전 (←)">←</button>
+  <button class="nav-btn" id="btn-next" title="다음 (→)">→</button>
+  <div class="counter"><b id="cur">01</b> / <span id="tot">00</span></div>
+  <div class="progress-wrap"><div class="progress-bar" id="bar"></div></div>
+  <div class="hint">← → 이동 · M 목차 · F 전체화면 · B 화면끄기 · T 타이머</div>
+</footer>
+
+<div class="overlay" id="overlay">
+  <h4>목차 · Session 02 Contents</h4>
+  <div class="toc" id="toc"></div>
+</div>
+<div class="blackout" id="blackout"></div>
+
+<script src="assets/deck.js"></script>
+</body>
+</html>
